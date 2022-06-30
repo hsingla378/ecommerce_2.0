@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express();
 require('dotenv').config()
-const port = require('./configs/serverconfig')
+const port = require('./config/serverconfig')
 const categoryRoutes = require("./routes/category.routes")
 
 categoryRoutes(app)
